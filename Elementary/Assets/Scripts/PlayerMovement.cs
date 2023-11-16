@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!PauseMenu.isPaused){
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
@@ -42,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         UpdateAnimationState();
+        }
     }
 
     private void UpdateAnimationState() 
