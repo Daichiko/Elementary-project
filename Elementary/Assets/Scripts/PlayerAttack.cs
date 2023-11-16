@@ -9,8 +9,8 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Transform controladorGolpe;
     [SerializeField] private float radioGolpe;
     [SerializeField] private float dañoGolpe;
-    [SerializeField] private float[] tiempoEntreAtaques = new float[3];
-    [SerializeField] private float[] tiempoSiguienteAtaque = Enumerable.Repeat(0f, 3).ToArray();
+    [SerializeField] private float[] tiempoEntreAtaques;
+    [SerializeField] private float[] tiempoSiguienteAtaque;
 
     private Animator animator;
 
@@ -38,6 +38,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if (Input.GetButtonDown("Attack1"))
             {
+                print("entre1");
                 animator.SetTrigger("Attack1");
                 Golpe();
                 tiempoSiguienteAtaque[0] = tiempoEntreAtaques[0];
@@ -48,6 +49,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if (Input.GetButtonDown("Attack2"))
             {
+                print("entre2");
                 animator.SetTrigger("Attack2");
                 Golpe();
                 tiempoSiguienteAtaque[1] = tiempoEntreAtaques[1];
@@ -58,6 +60,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if (Input.GetButtonDown("Attack3"))
             {
+                print("entre3");
                 animator.SetTrigger("Attack3");
                 Golpe();
                 tiempoSiguienteAtaque[2] = tiempoEntreAtaques[2];
