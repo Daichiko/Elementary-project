@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     [SerializeField] private float JumpForce;
+    [SerializeField] private Transform controladorGolpe;
 
     [SerializeField] private LayerMask JumpableGround;
 
@@ -49,15 +50,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (dirX > 0)
         {
+            if (controladorGolpe.localPosition.x < 0)
+                controladorGolpe.SetLocalPositionAndRotation(new Vector3(controladorGolpe.localPosition.x * -1, controladorGolpe.localPosition.y, controladorGolpe.localPosition.z), controladorGolpe.localRotation);
+            
             state = MovementState.running;
             sprite.flipX = false;
-            print((int)state);
         }
         else if (dirX < 0)
         {
+            if (controladorGolpe.localPosition.x > 0)
+                controladorGolpe.SetLocalPositionAndRotation(new Vector3(controladorGolpe.localPosition.x * -1, controladorGolpe.localPosition.y, controladorGolpe.localPosition.z), controladorGolpe.localRotation);
+            
             state = MovementState.running;
             sprite.flipX = true;
-            print((int)state);
         }
         else
         {
