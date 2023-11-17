@@ -22,7 +22,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 69cfcaba358dfae43a0c34a176336155, type: 2}
+  m_Motion: {fileID: 7400000, guid: b215f4c883e7bfd469d15c1823c89d7f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -35,7 +35,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_running
+  m_Name: Player2_running
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -50,7 +50,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 941f1e8da47eb1f45a50be6ee45cddde, type: 2}
+  m_Motion: {fileID: 7400000, guid: d3a3cd7f063ec2147ac7cc03d12ff318, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -63,7 +63,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_jumping
+  m_Name: Player2_jumping
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -77,7 +77,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d61fee0a3567aef418b6e8089d15438e, type: 2}
+  m_Motion: {fileID: 7400000, guid: 76dc767075f9a1e47a4127a13e61bca0, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -187,7 +187,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Attack3
+  m_Name: Player2_Attack3
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -201,7 +201,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f7bc5f2832285524bb8ce57a13c18701, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0a025151860ae844eafec18126fe70ee, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -239,7 +239,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Attack2
+  m_Name: Player2_Attack2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -253,7 +253,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7b638d97ab5988d4c81a9e9dc199791d, type: 2}
+  m_Motion: {fileID: 7400000, guid: cd791fb94be89a1439baa28b55b83d2e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -291,7 +291,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_falling
+  m_Name: Player2_falling
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -306,7 +306,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 426aaa7d495c5fc40a8a91833b44ceb0, type: 2}
+  m_Motion: {fileID: 7400000, guid: 107a34c68392ac545a1f7e84d7df6426, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -318,7 +318,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player
+  m_Name: Player2
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: State
@@ -577,7 +577,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Attack1
+  m_Name: Player2_Attack1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -591,7 +591,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 86e24f23793e1ca408cb5a8ece8c3596, type: 2}
+  m_Motion: {fileID: 7400000, guid: dac86876afc59314ba0be8922254dc0e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
