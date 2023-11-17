@@ -9,6 +9,11 @@ public class EnemyAI : MonoBehaviour
     public float activateDistance = 50f;
     public float pathUpdateSeconds = 0.5f;
 
+    [Header("Stats")]
+    public float life = 100f;
+    public float armor = 0.5f;
+
+
     [Header("Physics")]
     public float speed = 200f, jumpForce = 100f;
     public float nextWaypointDistance = 3f;
@@ -32,6 +37,12 @@ public class EnemyAI : MonoBehaviour
 
     public void Start()
     {
+        if (target == null)
+        {
+            target = GameObject.FindWithTag("Player").transform;
+        }
+
+
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
         isJumping = false;
