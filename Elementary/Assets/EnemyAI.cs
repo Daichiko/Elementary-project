@@ -35,6 +35,8 @@ public class EnemyAI : MonoBehaviour
     Rigidbody2D rb;
     private bool isOnCoolDown;
 
+    private bool following = false;
+
     public void Start()
     {
         if (target == null)
@@ -42,14 +44,37 @@ public class EnemyAI : MonoBehaviour
             target = GameObject.FindWithTag("Player").transform;
         }
 
+        if (target != null) 
+        {
+            seeker = GetComponent<Seeker>();
+            rb = GetComponent<Rigidbody2D>();
+            isJumping = false;
+            isInAir = false;
+            isOnCoolDown = false;
 
-        seeker = GetComponent<Seeker>();
-        rb = GetComponent<Rigidbody2D>();
-        isJumping = false;
-        isInAir = false;
-        isOnCoolDown = false;
+            InvokeRepeating("UpdatePath", 0f, pathUpdateSeconds);
+        }
+    }
 
-        InvokeRepeating("UpdatePath", 0f, pathUpdateSeconds);
+    public void Update()
+    {
+        if (target == null)
+        {
+            print("no lo encuentro");
+            target = GameObject.FindWithTag("Player").transform;
+        }
+
+        if (target != null && !following)
+        {
+            seeker = GetComponent<Seeker>();
+            rb = GetComponent<Rigidbody2D>();
+            isJumping = false;
+            isInAir = false;
+
+            print("por que entro?????");
+            InvokeRepeating("UpdatePath", 0f, pathUpdateSeconds);
+            following = true;
+        }
     }
 
     private void FixedUpdate()
