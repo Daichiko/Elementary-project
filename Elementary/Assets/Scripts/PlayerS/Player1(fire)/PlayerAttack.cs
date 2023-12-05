@@ -12,6 +12,11 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float[] tiempoEntreAtaques;
     [SerializeField] private float[] tiempoSiguienteAtaque;
 
+    [SerializeField] private int Healt;
+    [SerializeField] private int maxHealt;
+    [SerializeField] private int bonusResistence;
+    [SerializeField] private int bonusDamage;
+
     private Animator animator;
 
 

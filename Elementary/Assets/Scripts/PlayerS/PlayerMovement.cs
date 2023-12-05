@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D coll;
 
     private float dirX;
-    private bool Grounded;
 
     private enum MovementState { idle, running, jumping, falling };
 
