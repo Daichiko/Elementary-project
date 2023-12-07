@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 4313954306882412658}
   - component: {fileID: 6488745311323669134}
   - component: {fileID: 2093457357915240963}
-  - component: {fileID: 2738031726012907226}
+  - component: {fileID: 4633018701580763661}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -234,7 +234,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2738031726012907226
+--- !u!114 &4633018701580763661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,17 +243,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 8239495526188368190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfdef6ab11170954fab137fb8ddf6fc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ac727b48da469d46a3d446559a0345d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controladorGolpe: {fileID: 1677796370932604853}
   radioGolpe: 0.6
-  "da\xF1oGolpe": 20
+  "da\xF1oGolpe": 0f000000190000005a000000
   tiempoEntreAtaques:
-  - 0
   - 1
-  - 2
+  - 3
+  - 7
   tiempoSiguienteAtaque:
   - 0
   - 0
   - 0
+  level: 1
+  experience: 0
+  maxExperience: 150
+  Healt: 0
+  maxHealt: 980
+  bonusResistence: 0
+  bonusDamage: 0
+  healthbar: {fileID: 0}
+  experiencebar: {fileID: 0}
