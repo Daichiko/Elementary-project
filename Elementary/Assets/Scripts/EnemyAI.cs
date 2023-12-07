@@ -60,7 +60,6 @@ public class EnemyAI : MonoBehaviour
     {
         if (target == null)
         {
-            print("no lo encuentro");
             target = GameObject.FindWithTag("Player").transform;
         }
 
@@ -71,7 +70,6 @@ public class EnemyAI : MonoBehaviour
             isJumping = false;
             isInAir = false;
 
-            print("por que entro?????");
             InvokeRepeating("UpdatePath", 0f, pathUpdateSeconds);
             following = true;
         }

@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 4707405077016783002}
   - component: {fileID: 1476082203494812619}
   - component: {fileID: 7484823410398149413}
-  - component: {fileID: 3710993224687486661}
+  - component: {fileID: 6117044559352946881}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -234,7 +234,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3710993224687486661
+--- !u!114 &6117044559352946881
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,12 +248,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controladorGolpe: {fileID: 578038981409891215}
   radioGolpe: 0.6
-  "da\xF1oGolpe": 20
+  "da\xF1oGolpe": 320000003c0000005a000000
   tiempoEntreAtaques:
-  - 1
+  - 2
   - 5
-  - 10
+  - 4
   tiempoSiguienteAtaque:
   - 0
   - 0
   - 0
+  level: 1
+  experience: 0
+  maxExperience: 150
+  Healt: 0
+  maxHealt: 550
+  bonusResistence: 0
+  bonusDamage: 0
+  healthbar: {fileID: 0}
+  experiencebar: {fileID: 0}

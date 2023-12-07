@@ -23,6 +23,39 @@ TextureImporter:
   - first:
       213: 7971032109891991093
     second: Sprite boxer_6
+  - first:
+      213: 8560515150782324991
+    second: Sprite boxer_7
+  - first:
+      213: 8587518002482894542
+    second: Sprite boxer_8
+  - first:
+      213: 7782109838424061999
+    second: Sprite boxer_9
+  - first:
+      213: 9031570907130831004
+    second: Sprite boxer_10
+  - first:
+      213: -1452228207603638379
+    second: Sprite boxer_11
+  - first:
+      213: -4369525447347884943
+    second: Sprite boxer_12
+  - first:
+      213: -8737775188846511547
+    second: Sprite boxer_13
+  - first:
+      213: 1396810561849893384
+    second: Sprite boxer_14
+  - first:
+      213: -6905393608788230841
+    second: Sprite boxer_15
+  - first:
+      213: 5292783180591838456
+    second: Sprite boxer_16
+  - first:
+      213: -3780496429713206261
+    second: Sprite boxer_17
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -65,13 +98,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 55
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -90,7 +123,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -121,10 +154,10 @@ TextureImporter:
         serializedVersion: 2
         x: 22
         y: 9
-        width: 84
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        width: 80
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -143,9 +176,9 @@ TextureImporter:
         x: 150
         y: 9
         width: 84
-        height: 90
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,9 +197,9 @@ TextureImporter:
         x: 278
         y: 9
         width: 84
-        height: 95
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,10 +217,10 @@ TextureImporter:
         serializedVersion: 2
         x: 406
         y: 9
-        width: 84
-        height: 95
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        width: 83
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,10 +238,10 @@ TextureImporter:
         serializedVersion: 2
         x: 534
         y: 9
-        width: 87
-        height: 98
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        width: 83
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,12 +257,12 @@ TextureImporter:
       name: Sprite boxer_5
       rect:
         serializedVersion: 2
-        x: 663
-        y: 8
-        width: 87
-        height: 98
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        x: 662
+        y: 9
+        width: 84
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,10 +280,10 @@ TextureImporter:
         serializedVersion: 2
         x: 790
         y: 9
-        width: 87
-        height: 93
-      alignment: 9
-      pivot: {x: 0.5, y: -0.01}
+        width: 82
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,10 +295,241 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 9
+        width: 85
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0eab09c2f0dc670800000000000000
+      internalID: 8560515150782324991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 9
+        width: 74
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6d348ef1efc2770800000000000000
+      internalID: 8587518002482894542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_9
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 9
+        width: 72
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28b65aaaab9ffb60800000000000000
+      internalID: 7782109838424061999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 9
+        width: 68
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90294383e5965d70800000000000000
+      internalID: 9031570907130831004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_11
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 9
+        width: 60
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f9bf0b326a8dbe0800000000000000
+      internalID: -1452228207603638379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_12
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 9
+        width: 54
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cacc1a1c35c53c0800000000000000
+      internalID: -4369525447347884943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_13
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 9
+        width: 54
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54af49da2cf2db680800000000000000
+      internalID: -8737775188846511547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_14
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 7
+        width: 48
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802a39d2ec7726310800000000000000
+      internalID: 1396810561849893384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_15
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 9
+        width: 46
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dbce1691d1b20a0800000000000000
+      internalID: -6905393608788230841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_16
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 9
+        width: 85
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4b658a24eb37940800000000000000
+      internalID: 5292783180591838456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite boxer_17
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 9
+        width: 92
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04df40f68af88bc0800000000000000
+      internalID: -3780496429713206261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a64925941f9f48a469eb22c5750eddf2
+    spriteID: 3932f2e5c72d34e4d8beeccb73bf8e3a
     internalID: 0
     vertices: []
     indices: 
@@ -275,11 +539,22 @@ TextureImporter:
     nameFileIdTable:
       Sprite boxer_0: -5511958378514199512
       Sprite boxer_1: -5376467137338869406
+      Sprite boxer_10: 9031570907130831004
+      Sprite boxer_11: -1452228207603638379
+      Sprite boxer_12: -4369525447347884943
+      Sprite boxer_13: -8737775188846511547
+      Sprite boxer_14: 1396810561849893384
+      Sprite boxer_15: -6905393608788230841
+      Sprite boxer_16: 5292783180591838456
+      Sprite boxer_17: -3780496429713206261
       Sprite boxer_2: 3118444472789973133
       Sprite boxer_3: -8565494138783180673
       Sprite boxer_4: -572054180211279814
       Sprite boxer_5: 7306136826752674701
       Sprite boxer_6: 7971032109891991093
+      Sprite boxer_7: 8560515150782324991
+      Sprite boxer_8: 8587518002482894542
+      Sprite boxer_9: 7782109838424061999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

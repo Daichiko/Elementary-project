@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ListaPersonajes
   m_EditorClassIdentifier: 
   personajes:
+  - objeto_Jugador: {fileID: 1033864518669277367, guid: 6a2a78bf2e402c9499d837315823cf8b, type: 3}
   - objeto_Jugador: {fileID: 3473000845089962802, guid: c93b2cce216f3104c825b0a17b6b5221, type: 3}
   - objeto_Jugador: {fileID: 8239495526188368190, guid: ed2ecd3338e3e014d815e99ab547925b, type: 3}
