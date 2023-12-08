@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElemFuego_0: 5247536930864479194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

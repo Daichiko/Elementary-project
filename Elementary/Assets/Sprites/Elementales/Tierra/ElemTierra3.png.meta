@@ -332,7 +332,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElemTierra3_0: -1923744724038802130
+      ElemTierra3_1: -376490560384391603
+      ElemTierra3_2: -8957189641660119119
+      ElemTierra3_3: 2323221823392823139
+      ElemTierra3_4: -3982553053179760911
+      ElemTierra3_5: -1388079524508802856
+      ElemTierra3_6: 1561423002034168373
+      ElemTierra3_7: 8876592003148735532
+      ElemTierra3_8: 7958020926208211034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
