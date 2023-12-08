@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6460800757900262561}
   - component: {fileID: 6447601161384847623}
   - component: {fileID: 9153247033243548635}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 6993303256630372}
   - component: {fileID: 5364517400898064333}
   - component: {fileID: 1293306391274897713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BurningGhoul
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3130024549141699384}
   - component: {fileID: 4243941174196321571}
   - component: {fileID: 2080111679924014133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -127,7 +127,7 @@ MonoBehaviour:
   pathUpdateSeconds: 0.5
   life: 100
   armor: 0.5
-  speed: 2
+  speed: 3
   jumpForce: 1
   nextWaypointDistance: 3
   jumpNodeHeightRequirement: 0.8
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 250486797674229396}
   - component: {fileID: 1055140129947505732}
   - component: {fileID: 6138764382323931410}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WizardGFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -6,8 +6,8 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public GameObject enemyPrefab2; // Asigna tu prefab de enemigo aquí
-    public int numberOfEnemies = 5;
+    public GameObject enemyPrefab2; // Asigna tu prefab de enemigo aquï¿½
+    public int numberOfEnemies = 10;
 
     void Start()
     {
@@ -38,7 +38,7 @@ public class EnemySpawner : MonoBehaviour
 
     Vector3 GetRandomPosition()
     {
-        // Retorna una posición aleatoria; ajusta esto según tus necesidades
-        return new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0);
+        // Retorna una posiciï¿½n aleatoria; ajusta esto segï¿½n tus necesidades
+        return new Vector3(Random.Range(-1f, 10f), Random.Range(-5, 5f), 0);
     }
 }
