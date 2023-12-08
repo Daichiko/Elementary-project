@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aguila_0: -6280484819203351294
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
